@@ -1,6 +1,6 @@
 variable "cluster_name" {
-  type = string
-  default = "newrelic-microservices-sandbox"
+  type    = string
+  default = "tory-newrelic-microservices-sandbox"
 }
 
 variable "owner" {
@@ -8,20 +8,20 @@ variable "owner" {
 }
 
 variable "new_relic_license_key" {
-    type = string
+  type = string
 }
 
 variable "new_relic_user_api_key" {
-    type = string
+  type = string
 }
 
 variable "new_relic_account_id" {
-    type = string
+  type = string
 }
 
 variable "new_relic_region" {
-    type = string
-    default = "US"
+  type    = string
+  default = "US"
 }
 
 variable "image_tag" {
@@ -29,17 +29,17 @@ variable "image_tag" {
 }
 
 variable "registry_server" {
-  type = string
+  type    = string
   default = "ghcr.io"
 }
 
 variable "registry_username" {
-  type = string
+  type    = string
   default = null
 }
 
 variable "registry_password" {
-  type = string
+  type    = string
   default = null
 }
 
